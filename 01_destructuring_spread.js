@@ -11,13 +11,21 @@ function avg(a, b, c) {
 // let a2 = [5, 7, 9];
 // let a = [...arr, ...a2]
 let obj1 = {
-    name: "Aarish",
-    class: "8-A",
+    name1: "Aarish",
+    class1: "8-A",
     favlang: "JavaScript"
 }
 // let obj2 = {}
-// obj2.name = obj1.name
-// obj2.class = obj1.class
+// obj2.name1 = obj1.name1
+// obj2.class1 = obj1.class1
 // obj2.favlang = "Python"
 // let obj2 = {...obj1, favlang: "Python"}
 // console.log(obj2)
+
+// let name1 = obj1.name1
+// let class1 = obj1.class1
+// let favlang = obj1.favlang
+
+let {name1, class1, favlang} = obj1; // Destructuring
+
+console.log(name1, class1, favlang)
